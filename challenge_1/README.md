@@ -10,10 +10,6 @@ Coding Test Challenges
 
 HTML, CSS, and Typescript
 
-## Prerequisites
-
-- [Node.js](https://nodejs.org/en/) installed
-
 ## Getting Started
 
 Follow these steps to run the web application locally.
