@@ -16,7 +16,7 @@ Follow these steps to run the web application locally.
 
 ### Steps:
 
-1. Open then edit the script.ts file. Add the open weather map API key inside the apiKey variable.
+1. Open then edit the script.ts file. Set the value of the apiKey variable with the open weather map API key then save.
 2. Open the terminal, transpile the ts file into js file by entering the command:
    tsc script.ts
 3. Click the index.html
