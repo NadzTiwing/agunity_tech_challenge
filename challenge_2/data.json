@@ -1,0 +1,74 @@
+{
+    "population": [
+      {
+        "type": "men",
+        "total": "212.9M",
+        "countries": [
+          {
+            "name": "australia",
+            "total": "12.84M"
+          },
+          {
+            "name": "ghana",
+            "total": "16.46M"
+          },
+          {
+            "name": "indonesia",
+            "total": "139.13M"
+          },
+
+          {
+            "name": "kenya",
+            "total": "27.32MM"
+          }
+        ]
+      },
+      {
+        "type": "women",
+        "total": "212.9M",
+        "countries": [
+          {
+            "name": "australia",
+            "total": "12.94M"
+          },
+          {
+            "name": "ghana",
+            "total": "16.38M"
+          },
+          {
+            "name": "indonesia",
+            "total": "137.23M"
+          },
+
+          {
+            "name": "kenya",
+            "total": "27.66M"
+          }
+        ]
+      },
+      {
+        "type": "youth",
+        "total": "172.9M",
+        "countries": [
+          {
+            "name": "australia",
+            "total": "5.71M"
+          },
+          {
+            "name": "ghana",
+            "total": "14.62M"
+          },
+          {
+            "name": "indonesia",
+            "total": "82.96M"
+          },
+
+          {
+            "name": "kenya",
+            "total": "24.42M"
+          }
+        ]
+      }
+    ]
+  }
+  

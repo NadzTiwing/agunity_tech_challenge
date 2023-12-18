@@ -1,0 +1,130 @@
+* {
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	line-height: 1.25em;
+}
+
+:root {
+    --bluegreen: #38b2ac;
+    --light-bluegreen: #d7f5f3;
+    --purple: #553c9a;
+    --light-purple: #e9e0ff;
+    --blue: #3182ce;
+    --light-blue: #cce6ff;
+}
+
+body {
+    margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.men { grid-area: 1 / 1 / 2 / 2; }
+.women { grid-area: 1 / 2 / 2 / 3; }
+.youth { grid-area: 1 / 3 / 2 / 4; }
+
+.group-title {
+    margin: 1rem 1rem 0rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.group-title h3 {
+    letter-spacing: 1px;
+}
+
+.group-title span {
+    padding: 0.5rem;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 0.75rem;
+}
+
+.card {
+    margin: 0rem 1rem;
+    padding: 0.7rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.by-country {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.details-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.box {
+    margin: 3px;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+.total {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.country {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0.5rem;
+    text-transform: capitalize !important;
+}
+
+/* colors */
+.men-light-color {
+    background-color: var(--light-bluegreen);
+}
+
+.men-dark-color {
+    background-color: var(--bluegreen);
+}
+
+.men-txt-color {
+    color: var(--bluegreen);
+}
+
+.women-light-color {
+    background-color: var(--light-purple);
+}
+
+.women-dark-color {
+    background-color: var(--purple);
+}
+
+.women-txt-color {
+    color: var(--purple);
+}
+
+.youth-light-color {
+    background-color: var(--light-blue);
+}
+
+.youth-dark-color {
+    background-color: var(--blue);
+}
+
+.youth-txt-color {
+    color: var(--blue);
+}
