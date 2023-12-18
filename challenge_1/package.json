@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.68"
+  }
+}
